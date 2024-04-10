@@ -87,7 +87,6 @@ h1{
     height: auto;
     /* left: 10%; */
     display: none;
-    flex-wrap:wrap;
     /* visibility: hidden; */
 
 }
@@ -149,6 +148,8 @@ a{
     .userDetails{
         width: auto;
         height: auto;
+    flex-wrap:wrap;
+        
     }
     .top{
         width: 220px;
