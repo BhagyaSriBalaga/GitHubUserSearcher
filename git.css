@@ -144,7 +144,7 @@ a{
     object-fit: cover;
     pointer-events: none;
 } */
-@media screen and (max-width:490px) {
+@media screen and (max-width:550px) {
     .userDetails{
 /*         display: flex; */
         align-items: center;
