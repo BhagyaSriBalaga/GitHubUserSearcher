@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+    <link rel="stylesheet" href="git.css">
+</head>
+<body>
+    <div class="container">
+        <video autoplay loop muted class="clip">
+            <source src="images/Github_backvedio.mp4" type="video/mp4">
+        </video>
+<center><h1>Github User Searcher </h1></center>
+
+
+        <div class="top">
+            <input id="input" type="text" placeholder="Enter Username...">
+            <button onclick="submitUser()">Search User</button>
+        </div>
+        <div class="userDetails" id="userDetails">
+            <div id="avatar">
+                <img src="images/1.png">
+                
+            </div>
+            <div class="info1">
+                <label id="userName">UserName</label>
+                <p id="bio">Bio</p>
+                <div class="info2">
+                    <label><span>###</span>Followers</label>
+                    <label><span>###</span>Following</label>
+                    <label><span>###</span>Repos</label>
+                </div>
+                <div>
+                    <button id="profile"><a target="_blank">Go To Profile</a></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="git.js"></script>
+
+</body>
+</html>
