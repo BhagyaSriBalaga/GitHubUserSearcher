@@ -25,7 +25,7 @@ h1{
     align-items: center;
     position: relative;
     justify-content: center;
-    overflow: hidden;
+/*     overflow: hidden; */
     background-blend-mode:overlay;
 }
 .top{
