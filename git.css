@@ -162,6 +162,8 @@ a{
         width: 220px;
 /*         overflow-x: hidden; */
         display:none;
+     overflow-x: hidden;
+
 
     }
     .top{
