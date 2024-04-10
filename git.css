@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(back.jpg);
+    background-image: url(images/back.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ h1{
 
 }
 .userDetails{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -157,17 +157,14 @@ a{
         /* height: 100%; */
         /* left: 10%; */
         /* display: none; */
-        visibility: hidden;
+        /* visibility: hidden; */
         flex-direction: column;
         width: 220px;
-/*         overflow-x: hidden; */
-/*         display:none; */
-     overflow-x: hidden;
-
+        overflow-x: hidden;
 
     }
     .top{
-        width: 250px;
+        width: 220px;
         padding: 10px;
     }
     .top input{
