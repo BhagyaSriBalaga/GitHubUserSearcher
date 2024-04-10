@@ -87,6 +87,7 @@ h1{
     height: auto;
     /* left: 10%; */
     display: none;
+    flex-wrap:wrap;
     /* visibility: hidden; */
 
 }
@@ -146,22 +147,8 @@ a{
 } */
 @media screen and (max-width:550px) {
     .userDetails{
-/*         display: flex; */
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        background-color: rgb(140, 196, 196);
-        border-radius: 10px;
-        width: 40%;
-        position: relative;
-        /* height: 100%; */
-        /* left: 10%; */
-        display: none;
-        /* visibility: hidden; */
-        flex-direction: column;
-        width: 220px;
-        overflow-x: hidden;
-
+        width: auto;
+        height: auto;
     }
     .top{
         width: 220px;
