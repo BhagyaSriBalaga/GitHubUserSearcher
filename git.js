@@ -36,7 +36,7 @@
         repos.innerHTML=data.public_repos+" ";
         profileLink.href="https://github.com/"+input.value;
         input.value="";
-        userInfo[0].style.display="inline";
+        userInfo[0].style.display="flex";
         console.log("xcvbn",userInfo[0]);
 
         }
