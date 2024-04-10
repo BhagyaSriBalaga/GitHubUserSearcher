@@ -157,10 +157,11 @@ a{
         /* height: 100%; */
         /* left: 10%; */
         /* display: none; */
-        /* visibility: hidden; */
+        visibility: hidden;
         flex-direction: column;
         width: 220px;
-        overflow-x: hidden;
+/*         overflow-x: hidden; */
+        display:none;
 
     }
     .top{
