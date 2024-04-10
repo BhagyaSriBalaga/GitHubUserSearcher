@@ -36,12 +36,12 @@
         repos.innerHTML=data.public_repos+" ";
         profileLink.href="https://github.com/"+input.value;
         input.value="";
-        userInfo[0].style.display="visible";
+        userInfo[0].style.display="inline";
         console.log("xcvbn",userInfo[0]);
 
         }
 
-        submitUser()
+        
 
 
 
