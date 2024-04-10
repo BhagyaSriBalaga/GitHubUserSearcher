@@ -155,8 +155,9 @@ a{
         width: 220px;
         padding: 10px;
     }
+    
     .top input{
-        width: 60%;
-        font-size: 10px;
+        width: 70%;
+        font-size: 12px;
     }
 }
