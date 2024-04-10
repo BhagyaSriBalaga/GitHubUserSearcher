@@ -6,6 +6,7 @@
 body{
     background-image:url(back.jpg)
     background-size:cover;
+    background-position: center;
     background-repeat:no-repeat;
     height:100vh;
     width:100%;
@@ -134,7 +135,7 @@ a{
 .info2 label{
     font-size: 20px;
 }
-.clip{
+/* .clip{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -143,7 +144,7 @@ a{
     height: 100%;
     object-fit: cover;
     pointer-events: none;
-}
+} */
 @media screen and (max-width:490px) {
     .userDetails{
         display: flex;
